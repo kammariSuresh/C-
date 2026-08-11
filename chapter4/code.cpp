@@ -50,6 +50,13 @@ int main() {
     //     cout << endl;
     // }
 
+// Reverse Triangel pattern eg-2 Reverse loop
+    int n;
+    cin >> n;
+    cout << n;
+    
+
+
 // Triangle pattern with Alphabits
     // int n;
     // cin >> n;
@@ -61,16 +68,28 @@ int main() {
     // }
 
 // Floyd's Triangle Pattern
-    int n;
-    cin>>n;
-    int count = 1;
-    for (int i =0; i<n; i++) {
-        for (int j=1; j<=i+1; j++ ){
-            cout<< count << " ";
-            count = count + 1;
-        }
-        cout << endl;
-    }
+    // int n;
+    // cin>>n;
+    // int count = 1;
+    // for (int i =0; i<n; i++) {
+    //     for (int j=1; j<=i+1; j++ ){
+    //         cout<< count << " ";
+    //         count = count + 1;
+    //     }
+    //     cout << endl;
+    // }
+
+// Floyd's Triangle Cheractor Pattern
+    // int n;
+    // cin >> n;
+    // int count = 1;
+    // for (int i =0; i<n; i++){
+    //     for (int j=1; j<= i+1; j++) {
+    //         cout << char(64 + count) << " " ;
+    //         count = count + 1;
+    //     }
+    //     cout << endl;
+    // }
 
 }
 
