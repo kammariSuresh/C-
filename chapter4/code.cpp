@@ -53,7 +53,13 @@ int main() {
 // Reverse Triangel pattern eg-2 Reverse loop
     int n;
     cin >> n;
-    cout << n;
+    for (int i = 1; i<=n; i++){
+        for (int j = i; j>0;j--){
+            cout << char(64+j)<< " ";
+        }
+        cout << endl;
+
+    }
     
 
 
