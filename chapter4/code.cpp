@@ -55,7 +55,7 @@ int main() {
     cin >> n;
     for (int i = 1; i<=n; i++){
         for (int j = i; j>0;j--){
-            cout << char(64+j)<< " ";
+            cout << char(64+j)<< "*";
             // ...
         }
         cout << endl;
