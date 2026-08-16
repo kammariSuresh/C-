@@ -51,16 +51,16 @@ int main() {
     // }
 
 // Reverse Triangel pattern eg-2 Reverse loop
-    int n;
-    cin >> n;
-    for (int i = 1; i<=n; i++){
-        for (int j = i; j>0;j--){
-            cout << char(64+j)<< "*";
-            // ...
-        }
-        cout << endl;
+    // int n;
+    // cin >> n;
+    // for (int i = 1; i<=n; i++){
+    //     for (int j = i; j>0;j--){
+    //         cout << char(64+j)<< "*";
+    //         // ...
+    //     }
+    //     cout << endl;
 
-    }
+    // }
     
 
 
@@ -97,6 +97,33 @@ int main() {
     //     }
     //     cout << endl;
     // }
+
+// Inverted Triangle pattern
+    // int n;
+    // cin >> n;
+    // for (int i=0; i<n; i++) {
+    //     for (int j=0; j<i; j++) {
+    //         cout << "  ";
+    //     }
+    //     for (int j=0; j<n-i; i++){
+    //         cout << i+1 << " ";
+    //     }
+    //     cout << endl;
+    // }
+// Inverted Triangle pattern with alphabets
+    int n;
+    cin >> n;
+    for (int i=0; i<n; i++) {
+        for (int j=0; j<i; j++){
+            cout << "  ";
+        }
+        for (int j=1; j <= n-i; j++){
+            cout << char(65+i) << " ";
+        }
+        cout << endl;
+
+    }
+    
 
 }
 
