@@ -141,9 +141,5 @@ int main() {
     //     cout << endl;
     // }
 
-    int n;
-    cin >> n;
-    cout << n;
-
 }
 
