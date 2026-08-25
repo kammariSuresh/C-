@@ -185,9 +185,9 @@ int main() {
     //     cout << endl;
     // }
 
-// Butterlfly pattern
+// Butterlfly patterns
 
-    int n ;
+    int n;
     cin >> n;
     for (int i=0; i<n; i++) {
         // stars1.1
