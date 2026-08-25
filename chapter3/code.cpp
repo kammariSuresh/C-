@@ -2,6 +2,7 @@
 using namespace std;
 
 int main() {
+    // cout << "kammarisuresh";
 // Butterlfly patterns
     int n;
     cin >> n;
