@@ -2,9 +2,8 @@
 using namespace std;
 
 int main() {
-    // cout <<"kammari suresh";
-    // Butterlfly patterns
-int n;
+// Butterlfly patterns
+    int n;
     cin >> n;
     for (int i=0; i<n; i++) {
         // stars1.1
